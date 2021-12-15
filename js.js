@@ -8,3 +8,10 @@ class Foo {
 
 // unused object
 new Foo(10)
+
+function foo() {
+    "use strict";
+    return false;
+}
+
+const always_false = foo()
