@@ -1,11 +1,13 @@
 {
-  "extends": "hehahahahah",
+  "extends": "@tsconfig/base",
   "compilerOptions": {
-    "module": "commonjs",                                
-    "esModuleInterop": true,                             
-    "forceConsistentCasingInFileNames": true,            
-    "strict": true,                                      
-    "skipLibCheck": true                                 
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
   },
-  "include": ["bad/**/*.ts"]
+  "include": [
+    "bad/**/*.ts"
+  ]
 }
