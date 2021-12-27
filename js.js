@@ -1,18 +1,24 @@
-const unused_variable = 123
+import path from "path";
+import fs from "fs";
+
+const unused_variable = 123;
 
 class Foo {
-    constructor(x) {
-        this.x = x
-    }
+  constructor(x) {
+    this.x = x;
+  }
 }
+
+path.join("a", "b");
+fs.readFile("xx");
 
 // unused object
-new Foo(10)
+new Foo(10);
 
 function foo() {
-    "use strict";
-    return false;
+  "use strict";
+  return false;
 }
 
-const always_false = foo()
-const very_bad_variable = ">:D"
+const always_false = foo();
+const very_bad_variable = ">:D";
