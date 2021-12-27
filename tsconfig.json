@@ -1,5 +1,5 @@
 {
-  "extends": "@tsconfig/node14",
+  "extends": "Hello anto, how are you doing?",
   "compilerOptions": {
     "module": "commonjs",
     "esModuleInterop": true,
