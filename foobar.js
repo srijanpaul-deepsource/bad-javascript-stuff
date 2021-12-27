@@ -4,4 +4,4 @@ console.log(good_var)
 
 class X { constructor() { } }
 new X()
-
+new X()

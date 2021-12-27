@@ -23,7 +23,7 @@
   "dependencies": {
     "prettier": "^2.5.1",
     "rome": "^10.0.4-beta",
-    "@tsconfig/base": "^7.0.0",
+    "@tsconfig/node14": "^1.0.1",
     "typescript": "^4.5.4"
   }
 }

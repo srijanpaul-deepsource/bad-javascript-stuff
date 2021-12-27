@@ -1,5 +1,5 @@
 {
-  "extends": "@tsconfig/base",
+  "extends": "@tsconfig/node14",
   "compilerOptions": {
     "module": "commonjs",
     "esModuleInterop": true,
