@@ -1,1 +1,3 @@
 let bad_var = "12345";
+let good_var = 1
+console.log(good_var)
