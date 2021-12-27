@@ -1,5 +1,5 @@
 {
-  "extends": "Hello anto, how are you doing?",
+  "extends": "@tsconfig/recommended",
   "compilerOptions": {
     "module": "commonjs",
     "esModuleInterop": true,
