@@ -5,3 +5,6 @@ console.log(good_var)
 class X { constructor() { } }
 new X()
 new X()
+new X()
+
+let y = 2
