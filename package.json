@@ -1,29 +1,9 @@
 {
-  "name": "bad-javascript-stuff",
+  "name": "src",
   "version": "1.0.0",
-  "description": "",
-  "main": "js.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/srijanpaul-deepsource/bad-javascript-stuff.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/srijanpaul-deepsource/bad-javascript-stuff/issues"
-  },
-  "homepage": "https://github.com/srijanpaul-deepsource/bad-javascript-stuff#readme",
-  "devDependencies": {
-    "@tsconfig/recommended": "^1.0.1",
-    "typescript": "^4.5.4",
-    "prettier-plugin-organize-imports": "^2.3.4"
-  },
+  "main": "index.js",
+  "license": "MIT",
   "dependencies": {
-    "prettier": "^2.5.1",
-    "rome": "^10.0.4-beta"
+    "eslint-plugin-node": "^11.1.0"
   }
 }
