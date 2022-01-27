@@ -23,3 +23,5 @@ function foo() {
 
 let foo = 1
 console.log(foo)
+
+let x = 1
