@@ -20,7 +20,7 @@ const anotherKindOfFunction = () => {
 }
 
 
-const badFunction () => {
+const badFunction = () => {
   while (true) {
     spamNonExistantFunction();
   }
