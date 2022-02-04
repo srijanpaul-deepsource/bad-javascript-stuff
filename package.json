@@ -5,5 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "eslint-plugin-node": "^11.1.0"
+  },
+  "scripts": {
+    "push": "git add . && git commit -m 'x' && git push"
   }
 }
