@@ -32,3 +32,6 @@ function getFruit(index) {
   index = index || 3 // Everybody likes mangoes
   return fruits[index]
 }
+
+
+let x = "";
