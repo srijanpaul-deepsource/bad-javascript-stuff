@@ -35,3 +35,4 @@ function getFruit(index) {
 
 
 let x = "";
+let y = x;
