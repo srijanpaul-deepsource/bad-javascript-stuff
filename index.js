@@ -1,10 +1,8 @@
+import http from "http"
+import url from "url"
 
-let e = [
-    function foo() {
-        dosomething();
-    }, function bar() {
-        dosomething();
-    }
-];
-
-var foo = Boolean(!!bar);
+http.createServer((req, res) => {
+  const parsedUrl = url.parse(req.url, true)
+  // Vulnerable! user can inject special characters in the terminal
+  console.log(parsedUrl.query.username);
+})
