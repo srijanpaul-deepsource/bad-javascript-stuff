@@ -1,14 +1,7 @@
-import {
-  Session,
-  SessionDocument,
-} from "./schemas/session.schema";
+import { Session, SessionDocument } from "./schemas/session.schema";
 
 export class UsersRepository {
   constructor(
-    private readonly logger: CustomLogger,
-    private readonly translator: UsersTranslator,
-    @InjectModel(ServiceInvitationRequestUser.name)
-    private readonly ServiceInvitationRequestUserModel: Model<ServiceInvitationRequestUserDocument>,
     @InjectModel(User.name)
     private readonly UserModel: Model<UserDocument>,
     @InjectModel(Session.name)
