@@ -1,7 +1,8 @@
-import express from "express"
+import http from "http"
+import url from "url"
 
-const app = express()
-
-app.get("/route", (_req, res) => {
-  console.log(res.body.foo)
+http.createServer((req, res) => {
+  const parsedUrl = url.parse(req.url, true)
+  // Vulnerable! user can inject special characters in the terminal
+  console.log(parsedUrl.query.username);
 })
