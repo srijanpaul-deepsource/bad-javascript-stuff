@@ -7,4 +7,3 @@ enabled = true
 [analyzers.meta]
   module_system = "es-modules"
   dialect = "typescript"
-  environment=["nodejs"]
