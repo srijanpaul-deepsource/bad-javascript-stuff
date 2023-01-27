@@ -1,3 +1,3 @@
-let a = 1;
-console.assert(a === 1) // ok
-console.log(a) // not ok
+for (let i = 0; i <= array.length; ++i) {
+  use(array[i]) // <- array[i] may be undefined
+}
