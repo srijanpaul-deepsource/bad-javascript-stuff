@@ -4,3 +4,10 @@ for (let i = 0; i <= array.length; ++i) {
 
 console.assert(1 === 2);
 console.log(1 === 2);
+
+export class Something {
+  shouldBeStatic() {
+    // doesn't use [this]
+    return 123;
+  }
+}
