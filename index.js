@@ -11,3 +11,13 @@ export class Something {
     return 123;
   }
 }
+
+function main() {
+ // foo
+}
+
+function App() {
+ // foo
+}
+
+main(); App();
