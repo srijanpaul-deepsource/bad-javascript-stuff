@@ -20,4 +20,6 @@ function App() {
  // foo
 }
 
+let x;
+
 main(); App();
