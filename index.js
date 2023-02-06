@@ -13,13 +13,11 @@ export class Something {
 }
 
 function main() {
- // foo
+  return 0
 }
 
 function App() {
- // foo
+  return 1;
 }
-
-let x;
 
 main(); App();
