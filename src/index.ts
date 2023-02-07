@@ -1,4 +1,4 @@
-let str: string | null = null;
+let str: any
 if (!str) {
   str = ""
 }
