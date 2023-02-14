@@ -1,4 +1,5 @@
 let str: string | null = ""
+
 if (!str) {
   str = ""
 }
