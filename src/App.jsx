@@ -8,6 +8,7 @@ export default function App() {
             <span>Hello world</span>
             <span>I love violence</span>
             <span>:DDD</span>
+            <span>Hi</span>
           </div>
         </div>
       </div>
