@@ -1,5 +1,5 @@
 export default function App() {
-  return <div className="my-dumb-app">
+  return <div className="my-dumb-app yay">
     <div className="my-dumb-div">
       <div className="my-dumb-div-2">
         <div className="my-dumb-div-3">
