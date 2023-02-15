@@ -19,9 +19,6 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
-      "react/jsx-max-depth": ["error", {
-        "max": 10 
-      }]
     }
 }
 
