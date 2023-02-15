@@ -5,6 +5,9 @@
   "repository": "git@github.com:srijanpaul-deepsource/bad-javascript-stuff.git",
   "author": "Srijan Paul <srijan.paul@deepsource.io>",
   "license": "MIT",
+  "scripts": {
+    "trigger": "git add . && git commit -m 'trigger analysis' && git push"
+  },
   "dependencies": {
     "@nestjs/core": "^9.3.1",
     "nestjs": "^0.0.1"
