@@ -1,5 +1,7 @@
-export const getDomainName = (hostName = 'https://ancestrystage.com/') => {
-  const re = /\.([^.]+?)$/;
-  return re.exec(hostName)[1];
-};
+import express from 'express'
+const app = express()
+
+app.use(/user/, () => {
+  // empty because idc
+});
 
