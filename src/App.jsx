@@ -1,4 +1,11 @@
-import SomeComponent from "some-library";
+class F {
+  render() {
+    return 1
+  }
 
-export default <SomeComponent personal={true} />;
+
+  f() {
+    return 2
+  }
+}
 
