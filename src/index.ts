@@ -1,7 +1,7 @@
-let str: string | null = ""
+let str: string | null = "";
 
 if (!str) {
-  str = ""
+  str = "";
 }
 
-export default str
+export default str;
