@@ -1,7 +1,10 @@
-let str: string | null = ""
+import { Inject } from "some-module"
 
-if (!str) {
-  str = ""
+// doc
+export class C {
+  param: number
+  constructor(@Inject(1) param: number) {
+    this.param = param 
+  }
 }
 
-export default str
