@@ -1,8 +1,7 @@
-import { Inject } from "some-module"
+import { Inject } from "some-module";
 
 // doc
 export class C {
-  param: number
+  param: number;
   constructor(@Inject("SEQUELIZE") private readonly param: number) {}
 }
-
