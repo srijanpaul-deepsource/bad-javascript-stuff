@@ -1,4 +1,4 @@
-class F {
+export default class F {
   render() {
     return 1
   }
