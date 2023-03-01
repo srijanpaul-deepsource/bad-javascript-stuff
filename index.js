@@ -1,7 +1,7 @@
-import express from 'express'
-const app = express()
 
-app.use(/user/g, () => {
-  // empty because idc
-});
-
+loop1:
+for (let i = 0; i < 5; i++) {
+    if (i % 2 == 0)
+      break loop1;
+}
+// Expected output: "0234"
