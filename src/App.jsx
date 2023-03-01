@@ -1,11 +1,9 @@
 export default class F {
   render() {
-    return 1
+    return 1;
   }
-
 
   f() {
-    return 2
+    return 2;
   }
 }
-
