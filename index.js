@@ -1,6 +1,6 @@
-function mult(a, b) {
-  return a * b
+export default class Setter {
+  set(prop) {
+    this.prop = prop
+    return prop
+  }
 }
-
-mult(1, 2, 3)
-
