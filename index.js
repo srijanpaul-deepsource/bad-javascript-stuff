@@ -1,4 +1,6 @@
-const ob = {
+// comment
+// another comment
+const oo = {
   set key(value) {
     this._key = value;
     return null;
@@ -9,5 +11,5 @@ const ob = {
   }
 }
 
-export default ob
+export default oo
 
