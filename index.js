@@ -3,7 +3,7 @@
 const oo = {
   set key(value) {
     this._key = value;
-    return null;
+    return 123;
   },
 
   get key() {
@@ -11,5 +11,9 @@ const oo = {
   }
 }
 
-export default oo
+const prom = new Promise(function (resolve, reject) {
+  reject("oops")
+})
+
+export { oo, prom }
 
