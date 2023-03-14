@@ -11,5 +11,7 @@ interface Emits2 {
 }
 
 export default {}
+
+console.log("hello")
 </script>
 
