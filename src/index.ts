@@ -1,7 +1,14 @@
-import { Inject } from "some-module"
+if (true) {
+  console.log("always works")
+}
 
-// doc
-export default class Class {
-  constructor(@Inject("SEQUELIZE") private readonly param: number) {}
+if (!true) {
+  console.log("ummm....")
+}
+
+const list: string[] = []
+
+if (list) {
+  console.log("whats the point") 
 }
 
