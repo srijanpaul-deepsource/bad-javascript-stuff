@@ -3,5 +3,9 @@ const ys = xs.reduce((a, b) => {
   a.concat(b);
 })
 
+const ys2 = ys.find(x => {
+  xs.concat(x) 
+})
+
 export default ys
 
