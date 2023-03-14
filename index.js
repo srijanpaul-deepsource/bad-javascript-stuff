@@ -1,19 +1,7 @@
-// comment
-// another comment
-const oo = {
-  set key(value) {
-    this._key = value;
-    return 123;
-  },
-
-  get key() {
-    return this._key
-  }
-}
-
-const prom = new Promise(function (resolve, reject) {
-  reject("oops")
+const xs = [[1], [2], [3, 4]]
+const ys = xs.reduce((a, b) => {
+  a.concat(b);
 })
 
-export { oo, prom }
+export default ys
 
