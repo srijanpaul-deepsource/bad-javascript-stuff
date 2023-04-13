@@ -1,5 +1,5 @@
 const str = "BadMan"
-if (str.toUpperCase() === "foo") {
+if (str.toLowerCase() === "FoO") {
   // empty because reasons
   // :) :) :( :(
 }
