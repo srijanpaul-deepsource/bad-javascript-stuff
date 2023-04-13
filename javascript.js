@@ -1,8 +1,10 @@
 const str = "BadMan"
 
-if (str.toLowerCase() === "FoO") {
+if (str.toUpperCase() === "FoO") {
   // empty because reasons
   // :) :) :( :(
+} else if (str.toLowerCase() === "foo") {
+
 }
 
 
