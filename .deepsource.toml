@@ -1,8 +1,7 @@
 version = 1
 
 exclude_patterns = [
-  "dist/does-not-exist/**",
-  "folder/**/*.js"
+  "**/dist/does-not-exist/**",
 ]
 
 [[analyzers]]
