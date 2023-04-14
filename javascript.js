@@ -197,4 +197,6 @@ export default function act(room) {
   if (processKey === 9 && bootstrap.hardCpuUsed(t0) <= room.__cpuLimit) {
     terminalProcess.work(room)
   }
+
+  var x = 1
 } // end of act method
