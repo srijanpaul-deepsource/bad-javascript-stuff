@@ -1,10 +1,10 @@
 version = 1
 
-[[analyzers]]
-name = "javascript"
-
 exclude_patterns = [
   "dist/does-not-exist/**",
   "folder/**/*.js"
 ]
+
+[[analyzers]]
+name = "javascript"
 
