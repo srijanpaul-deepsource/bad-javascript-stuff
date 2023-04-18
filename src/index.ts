@@ -1,14 +1,11 @@
-if (true) {
-  console.log("always works")
-}
+import { Enum } from './enum'
 
-if (!true) {
-  console.log("ummm....")
-}
-
-const list: string[] = []
-
-if (list) {
-  console.log("whats the point") 
+// doc-comment
+export function func(en: Enum) {
+  switch (en) {
+    case Enum.A: func(Enum.B); break;
+    case Enum.B: func(Enum.A); break;
+  }
+  return
 }
 
