@@ -1,15 +1,10 @@
-import { Enum } from './enum'
+const popup = window.open('www.github.com')
+popup?.postMessage("hello :)");
 
-// doc-comment :D
-export function func(en: Enum) {
-  switch (en) {
-    case Enum.A: func(Enum.B); break;
-    case Enum.B: func(Enum.A); break;
-    case Enum.C: func(Enum.C); break;
-  }
-  return
-}
+const smth = { postMessage(msg: string) { return msg; } }
+smth.postMessage("message");
 
+postMessage(":D")
 
 // @ts-ignore
 export const invalid = 1 + false
