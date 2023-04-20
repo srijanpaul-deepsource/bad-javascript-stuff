@@ -18,9 +18,8 @@ export const invalid3 = 2 + false
 // @ts-expect-error
 export const invalid4 = 3 + false // <- this is not ok
 
-
-async function returnsPromise() {
-  return 1
+function returnsPromise(): Promise<number> {
+  return Promise.resolve(1)
 }
 
 returnsPromise() // <- JS-0328
