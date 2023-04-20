@@ -18,9 +18,4 @@ export const invalid3 = 2 + false
 // @ts-expect-error
 export const invalid4 = 3 + false // <- this is not ok
 
-function returnsPromise(): Promise<number> {
-  return Promise.resolve(1)
-}
-
-returnsPromise() // <- JS-0328
-
+fetch("www.dog.ceo");
