@@ -11,3 +11,17 @@ export const invalid = 1 + false
 
 // @ts-ignore i'm dumb and this is ok
 export const invalid2 = 1 + false
+
+// @ts-expect-error this is also ok :>
+export const invalid3 = 2 + false
+
+// @ts-expect-error
+export const invalid4 = 3 + false // <- this is not ok
+
+
+async function returnsPromise() {
+  return 1
+}
+
+returnsPromise() // <- JS-0328
+
