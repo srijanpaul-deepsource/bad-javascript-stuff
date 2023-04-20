@@ -2,5 +2,6 @@ function returnsPromise(): Promise<number> {
   return Promise.resolve(1)
 }
 
-returnsPromise()
+returnsPromise() // <- JS-0328 should be raised here.
+
 
