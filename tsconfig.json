@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2015",
     "module": "commonjs",
     "esModuleInterop": true,
     "strict": true,
     "lib": "es2021"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
