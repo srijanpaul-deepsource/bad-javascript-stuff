@@ -1,7 +1,5 @@
 <template>
-  <div>
-    button 
-  </div>
+  <div v-html="someHTML"></div>
 </template>
 
 <script>
