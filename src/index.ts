@@ -4,4 +4,3 @@ function returnsPromise(): Promise<number> {
 
 returnsPromise() // <- JS-0328 should be raised here.
 
-
