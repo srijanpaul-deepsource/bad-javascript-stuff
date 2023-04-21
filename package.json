@@ -8,7 +8,9 @@
   "scripts": {
     "trigger": "git add . && git commit -m 'trigger analysis' && git push"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
   "devDependencies": {
     "typescript": "^5.0.4"
   }
