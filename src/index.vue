@@ -1,13 +1,11 @@
 <template>
   <div>
-    <input v-on:keyup.112="showHelpText" />
+    button 
   </div>
 </template>
 
-
 <script>
-Vue.config.keyCodes = {
-  f1: 112
+export default {
+  notName: 'OurButton'
 }
 </script>
-
