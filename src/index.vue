@@ -1,4 +1,5 @@
 <template>
+    <!-- foo -->
     <div v-html="someHTML"></div>
 </template>
 
@@ -7,3 +8,4 @@ export default {
   notName: 'OurButton'
 }
 </script>
+
