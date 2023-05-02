@@ -7,5 +7,5 @@ exclude_patterns = [
 [[analyzers]]
 name = "javascript"
   [[analyzer.meta]]
-  plugins = ["vue"]
+  plugins = ["vue", "react"]
 
