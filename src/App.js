@@ -1,12 +1,8 @@
-// doc comment
-function Component() {
-  return <>Something Something JSX</> 
-}
-
-export default function App() {
-  return <div>
-    <Component className="some-class"/>
-    <>bad jsx fragment</>
-  </div>
+export class App {
+  render() {
+    // does not use `this`. but won't be flagged
+    // since this pattern is common.
+    return <> This is some stuff </>
+  }
 }
 
