@@ -4,4 +4,5 @@ const _ = require('lodash')
 export default new Accelerometer();
 
 export const three = _.add(1, 2)
+export const prom = new Promise(() => { /* stuff */ })
 

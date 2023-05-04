@@ -8,4 +8,5 @@ exclude_patterns = [
 name = "javascript"
   [[analyzer.meta]]
   plugins = ["vue", "react"]
+  module_system = "commonjs"
 
