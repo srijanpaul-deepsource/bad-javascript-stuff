@@ -1,9 +1,5 @@
-// some doc comment
-function returnsPromise(): Promise<number> {
-  return Promise.resolve(1)
+var x = 1
+
+for (var x = 1; x <= 10; ++x) {
+  console.log(y)
 }
-
-// Why isn't the issue being raised here!?
-returnsPromise() // <- JS-0328 should be raised here.
-
-

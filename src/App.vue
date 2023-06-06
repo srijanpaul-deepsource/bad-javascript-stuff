@@ -7,7 +7,6 @@
 </template>
 
 <script lang="ts" setup>
-
 import NeoNftCard from './NeoNftCard.vue'
 const nft = {
   id: '1825819407-173',
@@ -23,5 +22,5 @@ const nft = {
     name: 'KoDragons',
   },
 }
-
 </script>
+
