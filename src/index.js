@@ -15,3 +15,8 @@ export const myExport4 = myFunc((() => {
   return 123;
 })(), undefined, 3 + 1);
 
+
+function pleaseAnalyzeMe_IHaveNoDocComment() {
+  const unusedVariable = 123;
+  new Promise();
+}
