@@ -31,3 +31,5 @@ export function badFunction(boolz) {
     return false;
   }
 }
+
+let y = 1;
