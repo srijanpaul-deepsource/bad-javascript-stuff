@@ -15,8 +15,21 @@ export const myExport4 = myFunc((() => {
   return 123;
 })(), undefined, 3 + 1);
 
+let x = 1;
+
 
 function pleaseAnalyzeMe_IHaveNoDocComment() {
   const unusedVariable = 123;
   new Promise();
 }
+
+// fake doc comment
+export function badFunction(boolz) {
+  if (boolz) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+let y = 1;
