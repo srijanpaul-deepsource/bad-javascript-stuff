@@ -20,3 +20,8 @@ function pleaseAnalyzeMe_IHaveNoDocComment() {
   const unusedVariable = 123;
   new Promise();
 }
+
+if (or == null ) {
+  // empty cause reasons
+}
+
