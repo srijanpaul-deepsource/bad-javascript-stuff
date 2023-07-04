@@ -7,6 +7,16 @@ function myFunc(a, b, c) {
   return a + b + c;
 }
 
+// fake doc comment
+export function myOtherFunc(cond) {
+  if (cond) {
+    throw new Error("some error");
+    cond += 1;
+    return true;
+  }
+  return false;
+}
+
 export const myExport = myFunc(12, 13, undefined);
 export const myExport2 = myFunc(1 + 3, undefined, undefined);
 export const myExport3 = myFunc(1 + 1, undefined, 3 + 1);
@@ -23,5 +33,12 @@ function pleaseAnalyzeMe_IHaveNoDocComment() {
 
 if (or == null ) {
   // empty cause reasons
+}
+
+// fake doc comment.
+export function someOtherFunc(cond) {
+  if (cond) {
+    return;
+  }
 }
 
