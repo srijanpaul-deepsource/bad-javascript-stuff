@@ -42,3 +42,6 @@ export function someOtherFunc(cond) {
   }
 }
 
+if (or == null) {
+  // foo
+}
