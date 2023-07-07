@@ -45,3 +45,7 @@ export function someOtherFunc(cond) {
 if (or == null) {
   // foo
 }
+
+if (or == and) {
+  // foo
+}
