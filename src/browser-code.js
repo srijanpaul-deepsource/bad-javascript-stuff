@@ -6,3 +6,6 @@ export default new Accelerometer();
 export const three = _.add(1, 2)
 export const prom = new Promise(() => { /* stuff */ })
 
+const foo = $(".foo")
+foo.innerText = "foo"
+

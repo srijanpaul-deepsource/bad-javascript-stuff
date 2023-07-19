@@ -9,5 +9,5 @@ name = "javascript"
   [[analyzer.meta]]
   plugins = ["vue", "react"]
   module_system = "commonjs"
-  environments = []
+  environment = ["jquery"]
 
