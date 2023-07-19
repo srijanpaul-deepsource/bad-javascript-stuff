@@ -49,3 +49,6 @@ if (or == null) {
 if (or == and) {
   // foo
 }
+
+const foo = $(".foo")
+foo.innerText = "hi, dad"
