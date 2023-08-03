@@ -41,7 +41,7 @@ export function someOtherFunc(cond) {
     cond();
     return;
   } else {
-    console.log("no bueno")
+    console.log("no bueno") // <- not good
     return
   }
 }
