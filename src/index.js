@@ -38,7 +38,11 @@ if (or == null ) {
 // fake doc comment.
 export function someOtherFunc(cond) {
   if (cond) {
+    cond();
     return;
+  } else {
+    console.log("no bueno")
+    return
   }
 }
 
@@ -52,3 +56,6 @@ if (or == and) {
 
 const foo = $(".foo")
 foo.innerText = "hi, dad"
+
+foo && or && someOtherFunc(true)
+
