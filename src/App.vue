@@ -1,13 +1,17 @@
 <template>
   <Story title="NeoNftCard">
     <Variant title="Nft Card">
-      <NeoNftCard :nft="nft" prefix="rmrk" show-price />
+      <NftCard :nft="nft" prefix="rmrk" show-price />
+      <NftCard :nft="nft" prefix="rmrk" show-price />
     </Variant>
   </Story>
 </template>
 
 <script lang="ts" setup>
-import NeoNftCard from './NeoNftCard.vue'
+import NftCard from './NeoNftCard.vue'
+
+const nft2 = { name: 'foobar' }
+
 const nft = {
   id: '1825819407-173',
   metadata:
