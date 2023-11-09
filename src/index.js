@@ -57,57 +57,7 @@ const foo = $(".foo")
 foo.innerText = "hi, dad"
 
 foo && or && someOtherFunc(true)
-// my doc comment
-function complexFunction(input) {
-  let result = 0
-  if (input % 2 === 0) {
-    result += 1
-  } else {
-    result += 2
-    if (input > 10) {
-      result += 3
-      if (input < 100) {
-        result += 4
-      } else {
-        for (let i = 0; i < input; i++) {
-          result += 5
-        }
-      }
-    } else if (input === 4) {
-      for (let i = 0; i < input; i++) {
-        result += 6
-        while (result < 1000) {
-          result += 7
-        }
-      }
-    } else if (input === 5) {
-      result += 10
-    } else {
-      result += 2
-    }
-  }
-  switch (input) {
-    case 1:
-      result += 8
-      break
-    case 2:
-      result += 9
-      break
-    case 3:
-      result += 10
-      break
-    case 4:
-      result += 11
-      break
-    default:
-      result += 12
-      break
-  }
-  for (let i = 0; i < input; i++) {
-    result += 13
-    if (result % 2 === 0) {
-      result += 14
-    }
-  }
-  return result
-}
+
+let x = 1;
+let x_ = 1;
+let y = 1;
