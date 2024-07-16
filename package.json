@@ -9,6 +9,8 @@
     "trigger": "git add . && git commit -m 'trigger analysis' && git push"
   },
   "dependencies": {
+    "set-in": "2.0.0",
+    "undici": "^6.18.0",
     "vue": "^3.2.47"
   },
   "devDependencies": {
